@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/slice?key=<DICTIONARYAPI_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 17 Jun 2019 02:26:16 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '4396'
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"slice","uuid":"58b619bb-61ff-49e3-b2cd-9587f661e302","src":"coll_thes","section":"alpha","target":{"tuuid":"235e7e1a-4c43-4b48-9c94-81917924f96f","tsrc":"collegiate"},"stems":["slice","sliceable","sliced","slicer","slicers","slices","slicing"],"syns":[["sliver","splinter"],["cut","gash","incise","rip","shear","slash","slit"]],"ants":[],"offensive":false},"hwi":{"hw":"slice"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cut into long slender pieces "],["vis",[{"t":"{it}slice{\/it} the carrot into
+        tiny strips"}]]],"syn_list":[[{"wd":"sliver"},{"wd":"splinter"}]],"rel_list":[[{"wd":"chip"},{"wd":"chop"},{"wd":"dice"},{"wd":"hash"},{"wd":"julienne"},{"wd":"mince"}],[{"wd":"saw"},{"wd":"scissor"}],[{"wd":"cleave"},{"wd":"rive"},{"wd":"split"}],[{"wd":"gash"},{"wd":"incise"},{"wd":"rip"},{"wd":"slash"},{"wd":"slit"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        penetrate with a sharp edge (as a knife) "],["vis",[{"t":"the shard of glass
+        {it}sliced{\/it} my hand, and I started bleeding profusely"}]]],"syn_list":[[{"wd":"cut"},{"wd":"gash"},{"wd":"incise"},{"wd":"rip"},{"wd":"shear"},{"wd":"slash"},{"wd":"slit"}]],"rel_list":[[{"wd":"crosscut"},{"wd":"hacksaw"},{"wd":"saw"},{"wd":"scissor"}],[{"wd":"cleave"},{"wd":"rive"},{"wd":"split"}],[{"wd":"pierce"},{"wd":"stab"}],[{"wd":"bruise"},{"wd":"butcher"},{"wd":"hack"},{"wd":"haggle"},{"wd":"lacerate"},{"wd":"mangle"}],[{"wd":"rend"},{"wd":"tear"}],[{"wd":"carve"},{"wd":"chip"},{"wd":"chisel"},{"wd":"notch"}],[{"wd":"anatomize"},{"wd":"dissect"},{"wd":"section"}],[{"wd":"chop"},{"wd":"dice"},{"wd":"mince"}],[{"wd":"amputate"},{"wd":"cut
+        off"},{"wd":"sever"}]]}]]]}],"shortdef":["to cut into long slender pieces","to
+        penetrate with a sharp edge (as a knife)"]},{"meta":{"id":"slice","uuid":"72079058-1c30-4cdf-88fa-a134c9e6804a","src":"coll_thes","section":"alpha","target":{"tuuid":"a0e5de09-cce1-4f07-9eee-2a28671305fb","tsrc":"collegiate"},"stems":["slice","slices"],"syns":[["cross
+        section","sample","sampler","sampling","selection"],["cut","cutting"],["allotment","allowance","cut","end","part","piece","portion","proportion","quota","share","take"]],"ants":[],"offensive":false},"hwi":{"hw":"slice"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","a
+        number of things selected from a group to stand for the whole "],["vis",[{"t":"the
+        novel\u0027s multitudinous array of characters constitute a veritable {it}slice{\/it}
+        of humanity"}]]],"syn_list":[[{"wd":"cross section"},{"wd":"sample"},{"wd":"sampler"},{"wd":"sampling"},{"wd":"selection"}]],"rel_list":[[{"wd":"case"},{"wd":"example"},{"wd":"exemplar"},{"wd":"exemplification"},{"wd":"illustration"},{"wd":"instance"},{"wd":"representative"},{"wd":"specimen"}],[{"wd":"archetype"},{"wd":"classic"},{"wd":"locus
+        classicus"},{"wd":"paradigm"},{"wd":"prototype"}],[{"wd":"microcosm"}]]}]],[["sense",{"sn":"2","dt":[["text","a
+        piece that has been separated from the whole by cutting "],["vis",[{"t":"took
+        a {it}slice{\/it} from the cake before passing it down the table"}]]],"syn_list":[[{"wd":"cut"},{"wd":"cutting"}]],"rel_list":[[{"wd":"chop"},{"wd":"cutlet"}],[{"wd":"length"},{"wd":"part"},{"wd":"portion"},{"wd":"section"},{"wd":"segment"}],[{"wd":"chunk"},{"wd":"hunk"},{"wd":"lump"}],[{"wd":"clipping"},{"wd":"paring"},{"wd":"shaving"},{"wd":"sliver"},{"wd":"snippet"},{"wd":"splinter"}]]}]],[["sense",{"sn":"3","dt":[["text","something
+        belonging to, due to, or contributed by an individual member of a group "],["vis",[{"t":"there\u0027s
+        a pile of money to be made on this land deal, and everybody\u0027s trying
+        to get their {it}slice{\/it}"}]]],"syn_list":[[{"wd":"allotment"},{"wd":"allowance"},{"wd":"cut"},{"wd":"end"},{"wd":"part"},{"wd":"piece"},{"wd":"portion"},{"wd":"proportion"},{"wd":"quota"},{"wd":"share"},{"wd":"take"}]],"rel_list":[[{"wd":"lot"},{"wd":"ration"}],[{"wd":"commission"},{"wd":"percentage"}],[{"wd":"member"},{"wd":"partition"},{"wd":"section"},{"wd":"segment"}]],"phrase_list":[[{"wd":"piece
+        of the action"}]],"near_list":[[{"wd":"aggregate"},{"wd":"composite"},{"wd":"compound"},{"wd":"pool"},{"wd":"sum"},{"wd":"total"},{"wd":"totality"}],[{"wd":"whole"}]]}]]]}],"shortdef":["a
+        number of things selected from a group to stand for the whole","a piece that
+        has been separated from the whole by cutting","something belonging to, due
+        to, or contributed by an individual member of a group"]}]'
+    http_version: 
+  recorded_at: Mon, 17 Jun 2019 02:26:16 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/slice?key=<DICTIONARYAPI_KEY>
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"slice","uuid":"58b619bb-61ff-49e3-b2cd-9587f661e302","src":"coll_thes","section":"alpha","target":{"tuuid":"235e7e1a-4c43-4b48-9c94-81917924f96f","tsrc":"collegiate"},"stems":["slice","sliceable","sliced","slicer","slicers","slices","slicing"],"syns":[["sliver","splinter"],["cut","gash","incise","rip","shear","slash","slit"]],"ants":[],"offensive":false},"hwi":{"hw":"slice"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cut into long slender pieces "],["vis",[{"t":"{it}slice{\/it} the carrot into
+        tiny strips"}]]],"syn_list":[[{"wd":"sliver"},{"wd":"splinter"}]],"rel_list":[[{"wd":"chip"},{"wd":"chop"},{"wd":"dice"},{"wd":"hash"},{"wd":"julienne"},{"wd":"mince"}],[{"wd":"saw"},{"wd":"scissor"}],[{"wd":"cleave"},{"wd":"rive"},{"wd":"split"}],[{"wd":"gash"},{"wd":"incise"},{"wd":"rip"},{"wd":"slash"},{"wd":"slit"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        penetrate with a sharp edge (as a knife) "],["vis",[{"t":"the shard of glass
+        {it}sliced{\/it} my hand, and I started bleeding profusely"}]]],"syn_list":[[{"wd":"cut"},{"wd":"gash"},{"wd":"incise"},{"wd":"rip"},{"wd":"shear"},{"wd":"slash"},{"wd":"slit"}]],"rel_list":[[{"wd":"crosscut"},{"wd":"hacksaw"},{"wd":"saw"},{"wd":"scissor"}],[{"wd":"cleave"},{"wd":"rive"},{"wd":"split"}],[{"wd":"pierce"},{"wd":"stab"}],[{"wd":"bruise"},{"wd":"butcher"},{"wd":"hack"},{"wd":"haggle"},{"wd":"lacerate"},{"wd":"mangle"}],[{"wd":"rend"},{"wd":"tear"}],[{"wd":"carve"},{"wd":"chip"},{"wd":"chisel"},{"wd":"notch"}],[{"wd":"anatomize"},{"wd":"dissect"},{"wd":"section"}],[{"wd":"chop"},{"wd":"dice"},{"wd":"mince"}],[{"wd":"amputate"},{"wd":"cut
+        off"},{"wd":"sever"}]]}]]]}],"shortdef":["to cut into long slender pieces","to
+        penetrate with a sharp edge (as a knife)"]},{"meta":{"id":"slice","uuid":"72079058-1c30-4cdf-88fa-a134c9e6804a","src":"coll_thes","section":"alpha","target":{"tuuid":"a0e5de09-cce1-4f07-9eee-2a28671305fb","tsrc":"collegiate"},"stems":["slice","slices"],"syns":[["cross
+        section","sample","sampler","sampling","selection"],["cut","cutting"],["allotment","allowance","cut","end","part","piece","portion","proportion","quota","share","take"]],"ants":[],"offensive":false},"hwi":{"hw":"slice"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","a
+        number of things selected from a group to stand for the whole "],["vis",[{"t":"the
+        novel\u0027s multitudinous array of characters constitute a veritable {it}slice{\/it}
+        of humanity"}]]],"syn_list":[[{"wd":"cross section"},{"wd":"sample"},{"wd":"sampler"},{"wd":"sampling"},{"wd":"selection"}]],"rel_list":[[{"wd":"case"},{"wd":"example"},{"wd":"exemplar"},{"wd":"exemplification"},{"wd":"illustration"},{"wd":"instance"},{"wd":"representative"},{"wd":"specimen"}],[{"wd":"archetype"},{"wd":"classic"},{"wd":"locus
+        classicus"},{"wd":"paradigm"},{"wd":"prototype"}],[{"wd":"microcosm"}]]}]],[["sense",{"sn":"2","dt":[["text","a
+        piece that has been separated from the whole by cutting "],["vis",[{"t":"took
+        a {it}slice{\/it} from the cake before passing it down the table"}]]],"syn_list":[[{"wd":"cut"},{"wd":"cutting"}]],"rel_list":[[{"wd":"chop"},{"wd":"cutlet"}],[{"wd":"length"},{"wd":"part"},{"wd":"portion"},{"wd":"section"},{"wd":"segment"}],[{"wd":"chunk"},{"wd":"hunk"},{"wd":"lump"}],[{"wd":"clipping"},{"wd":"paring"},{"wd":"shaving"},{"wd":"sliver"},{"wd":"snippet"},{"wd":"splinter"}]]}]],[["sense",{"sn":"3","dt":[["text","something
+        belonging to, due to, or contributed by an individual member of a group "],["vis",[{"t":"there\u0027s
+        a pile of money to be made on this land deal, and everybody\u0027s trying
+        to get their {it}slice{\/it}"}]]],"syn_list":[[{"wd":"allotment"},{"wd":"allowance"},{"wd":"cut"},{"wd":"end"},{"wd":"part"},{"wd":"piece"},{"wd":"portion"},{"wd":"proportion"},{"wd":"quota"},{"wd":"share"},{"wd":"take"}]],"rel_list":[[{"wd":"lot"},{"wd":"ration"}],[{"wd":"commission"},{"wd":"percentage"}],[{"wd":"member"},{"wd":"partition"},{"wd":"section"},{"wd":"segment"}]],"phrase_list":[[{"wd":"piece
+        of the action"}]],"near_list":[[{"wd":"aggregate"},{"wd":"composite"},{"wd":"compound"},{"wd":"pool"},{"wd":"sum"},{"wd":"total"},{"wd":"totality"}],[{"wd":"whole"}]]}]]]}],"shortdef":["a
+        number of things selected from a group to stand for the whole","a piece that
+        has been separated from the whole by cutting","something belonging to, due
+        to, or contributed by an individual member of a group"]}]'
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Jun 2019 01:45:23 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '4396'
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"slice","uuid":"58b619bb-61ff-49e3-b2cd-9587f661e302","src":"coll_thes","section":"alpha","target":{"tuuid":"235e7e1a-4c43-4b48-9c94-81917924f96f","tsrc":"collegiate"},"stems":["slice","sliceable","sliced","slicer","slicers","slices","slicing"],"syns":[["sliver","splinter"],["cut","gash","incise","rip","shear","slash","slit"]],"ants":[],"offensive":false},"hwi":{"hw":"slice"},"fl":"verb","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","to
+        cut into long slender pieces "],["vis",[{"t":"{it}slice{\/it} the carrot into
+        tiny strips"}]]],"syn_list":[[{"wd":"sliver"},{"wd":"splinter"}]],"rel_list":[[{"wd":"chip"},{"wd":"chop"},{"wd":"dice"},{"wd":"hash"},{"wd":"julienne"},{"wd":"mince"}],[{"wd":"saw"},{"wd":"scissor"}],[{"wd":"cleave"},{"wd":"rive"},{"wd":"split"}],[{"wd":"gash"},{"wd":"incise"},{"wd":"rip"},{"wd":"slash"},{"wd":"slit"}]]}]],[["sense",{"sn":"2","dt":[["text","to
+        penetrate with a sharp edge (as a knife) "],["vis",[{"t":"the shard of glass
+        {it}sliced{\/it} my hand, and I started bleeding profusely"}]]],"syn_list":[[{"wd":"cut"},{"wd":"gash"},{"wd":"incise"},{"wd":"rip"},{"wd":"shear"},{"wd":"slash"},{"wd":"slit"}]],"rel_list":[[{"wd":"crosscut"},{"wd":"hacksaw"},{"wd":"saw"},{"wd":"scissor"}],[{"wd":"cleave"},{"wd":"rive"},{"wd":"split"}],[{"wd":"pierce"},{"wd":"stab"}],[{"wd":"bruise"},{"wd":"butcher"},{"wd":"hack"},{"wd":"haggle"},{"wd":"lacerate"},{"wd":"mangle"}],[{"wd":"rend"},{"wd":"tear"}],[{"wd":"carve"},{"wd":"chip"},{"wd":"chisel"},{"wd":"notch"}],[{"wd":"anatomize"},{"wd":"dissect"},{"wd":"section"}],[{"wd":"chop"},{"wd":"dice"},{"wd":"mince"}],[{"wd":"amputate"},{"wd":"cut
+        off"},{"wd":"sever"}]]}]]]}],"shortdef":["to cut into long slender pieces","to
+        penetrate with a sharp edge (as a knife)"]},{"meta":{"id":"slice","uuid":"72079058-1c30-4cdf-88fa-a134c9e6804a","src":"coll_thes","section":"alpha","target":{"tuuid":"a0e5de09-cce1-4f07-9eee-2a28671305fb","tsrc":"collegiate"},"stems":["slice","slices"],"syns":[["cross
+        section","sample","sampler","sampling","selection"],["cut","cutting"],["allotment","allowance","cut","end","part","piece","portion","proportion","quota","share","take"]],"ants":[],"offensive":false},"hwi":{"hw":"slice"},"fl":"noun","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","a
+        number of things selected from a group to stand for the whole "],["vis",[{"t":"the
+        novel\u0027s multitudinous array of characters constitute a veritable {it}slice{\/it}
+        of humanity"}]]],"syn_list":[[{"wd":"cross section"},{"wd":"sample"},{"wd":"sampler"},{"wd":"sampling"},{"wd":"selection"}]],"rel_list":[[{"wd":"case"},{"wd":"example"},{"wd":"exemplar"},{"wd":"exemplification"},{"wd":"illustration"},{"wd":"instance"},{"wd":"representative"},{"wd":"specimen"}],[{"wd":"archetype"},{"wd":"classic"},{"wd":"locus
+        classicus"},{"wd":"paradigm"},{"wd":"prototype"}],[{"wd":"microcosm"}]]}]],[["sense",{"sn":"2","dt":[["text","a
+        piece that has been separated from the whole by cutting "],["vis",[{"t":"took
+        a {it}slice{\/it} from the cake before passing it down the table"}]]],"syn_list":[[{"wd":"cut"},{"wd":"cutting"}]],"rel_list":[[{"wd":"chop"},{"wd":"cutlet"}],[{"wd":"length"},{"wd":"part"},{"wd":"portion"},{"wd":"section"},{"wd":"segment"}],[{"wd":"chunk"},{"wd":"hunk"},{"wd":"lump"}],[{"wd":"clipping"},{"wd":"paring"},{"wd":"shaving"},{"wd":"sliver"},{"wd":"snippet"},{"wd":"splinter"}]]}]],[["sense",{"sn":"3","dt":[["text","something
+        belonging to, due to, or contributed by an individual member of a group "],["vis",[{"t":"there\u0027s
+        a pile of money to be made on this land deal, and everybody\u0027s trying
+        to get their {it}slice{\/it}"}]]],"syn_list":[[{"wd":"allotment"},{"wd":"allowance"},{"wd":"cut"},{"wd":"end"},{"wd":"part"},{"wd":"piece"},{"wd":"portion"},{"wd":"proportion"},{"wd":"quota"},{"wd":"share"},{"wd":"take"}]],"rel_list":[[{"wd":"lot"},{"wd":"ration"}],[{"wd":"commission"},{"wd":"percentage"}],[{"wd":"member"},{"wd":"partition"},{"wd":"section"},{"wd":"segment"}]],"phrase_list":[[{"wd":"piece
+        of the action"}]],"near_list":[[{"wd":"aggregate"},{"wd":"composite"},{"wd":"compound"},{"wd":"pool"},{"wd":"sum"},{"wd":"total"},{"wd":"totality"}],[{"wd":"whole"}]]}]]]}],"shortdef":["a
+        number of things selected from a group to stand for the whole","a piece that
+        has been separated from the whole by cutting","something belonging to, due
+        to, or contributed by an individual member of a group"]}]'
+    http_version: 
+  recorded_at: Tue, 18 Jun 2019 01:45:23 GMT
+recorded_with: VCR 5.0.0

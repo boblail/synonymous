@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/adaptable?key=<DICTIONARYAPI_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 17 Jun 2019 02:37:58 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '2587'
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"adaptable","uuid":"bb3ef944-bad5-4987-a75e-cc9b59b9e40c","src":"coll_thes","section":"alpha","target":{"tuuid":"c57d99e2-5fcd-455d-b8bc-a50483db752c","tsrc":"collegiate"},"stems":["adaptable","adaptabilities","adaptability"],"syns":[["all-around","protean","universal","versatile"],["adjustable","alterable","changeable","elastic","flexible","fluid","malleable","modifiable","pliable","variable"]],"ants":[["established","fixed","immutable","inelastic","inflexible","invariable","nonmalleable","ramrod","set","unadaptable","unalterable","unbudgeable","unchangeable"]],"offensive":false},"hwi":{"hw":"adaptable"},"fl":"adjective","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","able
+        to do many different kinds of things "],["vis",[{"t":"an activities director
+        who\u0027s {it}adaptable{\/it} to any kind of situation"}]]],"syn_list":[[{"wd":"all-around","wvrs":[{"wvl":"also","wva":"all-round"}]},{"wd":"protean"},{"wd":"universal"},{"wd":"versatile"}]],"rel_list":[[{"wd":"general-purpose"},{"wd":"mixed-use"},{"wd":"multipurpose"}],[{"wd":"well-rounded"}],[{"wd":"able"},{"wd":"ace"},{"wd":"adept"},{"wd":"experienced"},{"wd":"expert"},{"wd":"masterful"},{"wd":"proficient"},{"wd":"skilled"},{"wd":"skillful"}],[{"wd":"adjustable"},{"wd":"alterable"},{"wd":"changeable"},{"wd":"elastic"},{"wd":"flexible"},{"wd":"fluid"},{"wd":"malleable"},{"wd":"modifiable"},{"wd":"plastic"},{"wd":"pliable"},{"wd":"pliant"},{"wd":"supple"},{"wd":"variable"}]],"near_list":[[{"wd":"limited"}],[{"wd":"amateur"},{"wd":"inexperienced"}]]}]],[["sense",{"sn":"2","dt":[["text","capable
+        of being readily changed "],["vis",[{"t":"the caterer\u0027s menu is {it}adaptable{\/it}
+        to specific dietary needs, such as vegan, kosher, or low-fat"}]]],"syn_list":[[{"wd":"adjustable"},{"wd":"alterable"},{"wd":"changeable"},{"wd":"elastic"},{"wd":"flexible"},{"wd":"fluid"},{"wd":"malleable"},{"wd":"modifiable"},{"wd":"pliable"},{"wd":"variable"}]],"rel_list":[[{"wd":"changing"},{"wd":"fluctuating"},{"wd":"inconstant"},{"wd":"labile"},{"wd":"unstable"},{"wd":"unsteady"},{"wd":"varying"},{"wd":"versatile"}]],"near_list":[[{"wd":"constant"},{"wd":"stable"},{"wd":"steady"},{"wd":"unchanging"},{"wd":"uniform"},{"wd":"unvarying"}]],"ant_list":[[{"wd":"established"},{"wd":"fixed"},{"wd":"immutable"},{"wd":"inelastic"},{"wd":"inflexible"},{"wd":"invariable"},{"wd":"nonmalleable"},{"wd":"ramrod"},{"wd":"set"},{"wd":"unadaptable"},{"wd":"unalterable"},{"wd":"unbudgeable"},{"wd":"unchangeable"}]]}]]]}],"shortdef":["able
+        to do many different kinds of things","capable of being readily changed"]}]'
+    http_version: 
+  recorded_at: Mon, 17 Jun 2019 02:37:58 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/adaptable?key=<DICTIONARYAPI_KEY>
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"adaptable","uuid":"bb3ef944-bad5-4987-a75e-cc9b59b9e40c","src":"coll_thes","section":"alpha","target":{"tuuid":"c57d99e2-5fcd-455d-b8bc-a50483db752c","tsrc":"collegiate"},"stems":["adaptable","adaptabilities","adaptability"],"syns":[["all-around","protean","universal","versatile"],["adjustable","alterable","changeable","elastic","flexible","fluid","malleable","modifiable","pliable","variable"]],"ants":[["established","fixed","immutable","inelastic","inflexible","invariable","nonmalleable","ramrod","set","unadaptable","unalterable","unbudgeable","unchangeable"]],"offensive":false},"hwi":{"hw":"adaptable"},"fl":"adjective","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","able
+        to do many different kinds of things "],["vis",[{"t":"an activities director
+        who\u0027s {it}adaptable{\/it} to any kind of situation"}]]],"syn_list":[[{"wd":"all-around","wvrs":[{"wvl":"also","wva":"all-round"}]},{"wd":"protean"},{"wd":"universal"},{"wd":"versatile"}]],"rel_list":[[{"wd":"general-purpose"},{"wd":"mixed-use"},{"wd":"multipurpose"}],[{"wd":"well-rounded"}],[{"wd":"able"},{"wd":"ace"},{"wd":"adept"},{"wd":"experienced"},{"wd":"expert"},{"wd":"masterful"},{"wd":"proficient"},{"wd":"skilled"},{"wd":"skillful"}],[{"wd":"adjustable"},{"wd":"alterable"},{"wd":"changeable"},{"wd":"elastic"},{"wd":"flexible"},{"wd":"fluid"},{"wd":"malleable"},{"wd":"modifiable"},{"wd":"plastic"},{"wd":"pliable"},{"wd":"pliant"},{"wd":"supple"},{"wd":"variable"}]],"near_list":[[{"wd":"limited"}],[{"wd":"amateur"},{"wd":"inexperienced"}]]}]],[["sense",{"sn":"2","dt":[["text","capable
+        of being readily changed "],["vis",[{"t":"the caterer\u0027s menu is {it}adaptable{\/it}
+        to specific dietary needs, such as vegan, kosher, or low-fat"}]]],"syn_list":[[{"wd":"adjustable"},{"wd":"alterable"},{"wd":"changeable"},{"wd":"elastic"},{"wd":"flexible"},{"wd":"fluid"},{"wd":"malleable"},{"wd":"modifiable"},{"wd":"pliable"},{"wd":"variable"}]],"rel_list":[[{"wd":"changing"},{"wd":"fluctuating"},{"wd":"inconstant"},{"wd":"labile"},{"wd":"unstable"},{"wd":"unsteady"},{"wd":"varying"},{"wd":"versatile"}]],"near_list":[[{"wd":"constant"},{"wd":"stable"},{"wd":"steady"},{"wd":"unchanging"},{"wd":"uniform"},{"wd":"unvarying"}]],"ant_list":[[{"wd":"established"},{"wd":"fixed"},{"wd":"immutable"},{"wd":"inelastic"},{"wd":"inflexible"},{"wd":"invariable"},{"wd":"nonmalleable"},{"wd":"ramrod"},{"wd":"set"},{"wd":"unadaptable"},{"wd":"unalterable"},{"wd":"unbudgeable"},{"wd":"unchangeable"}]]}]]]}],"shortdef":["able
+        to do many different kinds of things","capable of being readily changed"]}]'
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 18 Jun 2019 01:45:22 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '2587'
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"adaptable","uuid":"bb3ef944-bad5-4987-a75e-cc9b59b9e40c","src":"coll_thes","section":"alpha","target":{"tuuid":"c57d99e2-5fcd-455d-b8bc-a50483db752c","tsrc":"collegiate"},"stems":["adaptable","adaptabilities","adaptability"],"syns":[["all-around","protean","universal","versatile"],["adjustable","alterable","changeable","elastic","flexible","fluid","malleable","modifiable","pliable","variable"]],"ants":[["established","fixed","immutable","inelastic","inflexible","invariable","nonmalleable","ramrod","set","unadaptable","unalterable","unbudgeable","unchangeable"]],"offensive":false},"hwi":{"hw":"adaptable"},"fl":"adjective","def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","able
+        to do many different kinds of things "],["vis",[{"t":"an activities director
+        who\u0027s {it}adaptable{\/it} to any kind of situation"}]]],"syn_list":[[{"wd":"all-around","wvrs":[{"wvl":"also","wva":"all-round"}]},{"wd":"protean"},{"wd":"universal"},{"wd":"versatile"}]],"rel_list":[[{"wd":"general-purpose"},{"wd":"mixed-use"},{"wd":"multipurpose"}],[{"wd":"well-rounded"}],[{"wd":"able"},{"wd":"ace"},{"wd":"adept"},{"wd":"experienced"},{"wd":"expert"},{"wd":"masterful"},{"wd":"proficient"},{"wd":"skilled"},{"wd":"skillful"}],[{"wd":"adjustable"},{"wd":"alterable"},{"wd":"changeable"},{"wd":"elastic"},{"wd":"flexible"},{"wd":"fluid"},{"wd":"malleable"},{"wd":"modifiable"},{"wd":"plastic"},{"wd":"pliable"},{"wd":"pliant"},{"wd":"supple"},{"wd":"variable"}]],"near_list":[[{"wd":"limited"}],[{"wd":"amateur"},{"wd":"inexperienced"}]]}]],[["sense",{"sn":"2","dt":[["text","capable
+        of being readily changed "],["vis",[{"t":"the caterer\u0027s menu is {it}adaptable{\/it}
+        to specific dietary needs, such as vegan, kosher, or low-fat"}]]],"syn_list":[[{"wd":"adjustable"},{"wd":"alterable"},{"wd":"changeable"},{"wd":"elastic"},{"wd":"flexible"},{"wd":"fluid"},{"wd":"malleable"},{"wd":"modifiable"},{"wd":"pliable"},{"wd":"variable"}]],"rel_list":[[{"wd":"changing"},{"wd":"fluctuating"},{"wd":"inconstant"},{"wd":"labile"},{"wd":"unstable"},{"wd":"unsteady"},{"wd":"varying"},{"wd":"versatile"}]],"near_list":[[{"wd":"constant"},{"wd":"stable"},{"wd":"steady"},{"wd":"unchanging"},{"wd":"uniform"},{"wd":"unvarying"}]],"ant_list":[[{"wd":"established"},{"wd":"fixed"},{"wd":"immutable"},{"wd":"inelastic"},{"wd":"inflexible"},{"wd":"invariable"},{"wd":"nonmalleable"},{"wd":"ramrod"},{"wd":"set"},{"wd":"unadaptable"},{"wd":"unalterable"},{"wd":"unbudgeable"},{"wd":"unchangeable"}]]}]]]}],"shortdef":["able
+        to do many different kinds of things","capable of being readily changed"]}]'
+    http_version: 
+  recorded_at: Tue, 18 Jun 2019 01:45:22 GMT
+recorded_with: VCR 5.0.0

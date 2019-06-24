@@ -1,3 +1,4 @@
+require "synonymous/client"
 require "synonymous/version"
 
 module Synonymous

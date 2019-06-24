@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/police+force?key=<DICTIONARYAPI_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 24 Jun 2019 01:25:12 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '244'
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '["police force","counterforce","police forces","perforce","police officer","counterforces","police
+        officers","enforce","licence","licensor","licensors","police","policeman","policemen","politer","polychrome","reenforce","reinforce","workforce"]'
+    http_version: 
+  recorded_at: Mon, 24 Jun 2019 01:25:12 GMT
+- request:
+    method: get
+    uri: https://www.dictionaryapi.com/api/v3/references/thesaurus/json/police%20force?key=<DICTIONARYAPI_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 24 Jun 2019 01:29:10 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '1081'
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"meta":{"id":"police force","uuid":"17799531-e3bf-4865-8b6b-bdc6c41fdf9e","src":"coll_thes","section":"alpha","target":{"tuuid":"e4558596-b3ee-4e21-ba74-8c0438d7025c","tsrc":"collegiate"},"stems":["police
+        force","police forces"],"syns":[["constabulary","finest","force","fuzz","heat","man","police"]],"ants":[],"offensive":false},"hwi":{"hw":"police
+        force"},"fl":"noun","def":[{"sseq":[[["sense",{"dt":[["text","a body of officers
+        of the law "],["vis",[{"t":"mobilized practically the entire {it}police force{\/it}
+        to track down the escaped criminal"}]]],"syn_list":[[{"wd":"constabulary"},{"wd":"finest"},{"wd":"force"},{"wd":"fuzz"},{"wd":"heat","wsls":["slang"]},{"wd":"man"},{"wd":"police"}]],"rel_list":[[{"wd":"bluecoat"},{"wd":"bobby","wsls":["British"]},{"wd":"bull","wsls":["slang"]},{"wd":"constable"},{"wd":"cop"},{"wd":"copper"},{"wd":"gendarme"},{"wd":"officer"},{"wd":"peeler","wsls":["British"]},{"wd":"policeman"},{"wd":"police
+        officer"},{"wd":"policewoman"},{"wd":"shamus","wsls":["slang"]},{"wd":"trooper"}]]}]]]}],"shortdef":["a
+        body of officers of the law"]}]'
+    http_version: 
+  recorded_at: Mon, 24 Jun 2019 01:29:10 GMT
+recorded_with: VCR 5.0.0

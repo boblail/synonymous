@@ -2,12 +2,32 @@ PATH
   remote: .
   specs:
     synonymous (0.1.0)
+      faraday
+      faraday-raise-errors
 
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
+    faraday-raise-errors (0.3.0)
+      faraday
+    hashdiff (0.3.7)
     minitest (5.11.3)
+    multipart-post (2.1.1)
+    public_suffix (3.0.3)
     rake (10.5.0)
+    safe_yaml (1.0.5)
+    shoulda-context (1.2.2)
+    vcr (5.0.0)
+    webmock (3.4.2)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
 
 PLATFORMS
   ruby
@@ -16,7 +36,10 @@ DEPENDENCIES
   bundler (~> 1.17)
   minitest (~> 5.0)
   rake (~> 10.0)
+  shoulda-context
   synonymous!
+  vcr
+  webmock
 
 BUNDLED WITH
    1.17.2
