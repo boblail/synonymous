@@ -13,7 +13,7 @@ module Synonymous
     end
 
     def get(word)
-      Response.new(word, client.get("#{URI.escape(word)}?key=#{api_key}"))
+      Response.new(word, client.get("#{URI.encode_www_form_component(word).gsub("+", "%20")}?key=#{api_key}"))
     end
 
   private
