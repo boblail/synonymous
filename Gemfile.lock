@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    synonymous (0.1.0)
+    synonymous (0.2.0)
       faraday
       faraday-raise-errors
 
