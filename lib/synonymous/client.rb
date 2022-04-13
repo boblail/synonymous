@@ -1,5 +1,4 @@
 require "faraday"
-require "faraday/raise_errors"
 require "json"
 
 require "synonymous/response"
@@ -17,11 +16,10 @@ module Synonymous
     end
 
   private
-    attr_reader :client
 
     def client
       @client ||= Faraday.new("https://www.dictionaryapi.com/api/v3/references/thesaurus/json") do |client|
-        client.use Faraday::RaiseErrors
+        client.response :raise_error
         client.adapter Faraday.default_adapter
       end
     end
