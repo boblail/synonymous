@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    synonymous (0.2.0)
+    synonymous (0.3.0)
       faraday
 
 GEM
